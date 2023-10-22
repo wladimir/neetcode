@@ -14,5 +14,9 @@
 
 1. https://leetcode.com/problems/valid-palindrome/
 2. https://leetcode.com/problems/3sum/
+3. https://leetcode.com/problems/container-with-most-water/
+4. https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+5. https://leetcode.com/problems/longest-substring-without-repeating-characters/
+6. https://leetcode.com/problems/longest-repeating-character-replacement/
 
 TODO -> neetcode 150
