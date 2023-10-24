@@ -1,5 +1,4 @@
 * arrays & hashing
-
 1. https://leetcode.com/problems/contains-duplicate/
 2. https://leetcode.com/problems/valid-anagram/
 3. https://leetcode.com/problems/two-sum/
@@ -11,12 +10,17 @@
 9. https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
 
 * two pointers
-
 1. https://leetcode.com/problems/valid-palindrome/
 2. https://leetcode.com/problems/3sum/
 3. https://leetcode.com/problems/container-with-most-water/
-4. https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
-5. https://leetcode.com/problems/longest-substring-without-repeating-characters/
-6. https://leetcode.com/problems/longest-repeating-character-replacement/
+
+* sliding window
+1. https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+2. https://leetcode.com/problems/longest-substring-without-repeating-characters/
+3. https://leetcode.com/problems/longest-repeating-character-replacement/
+
+* stack
+1. https://leetcode.com/problems/valid-parentheses/
+2. https://leetcode.com/problems/search-a-2d-matrix/
 
 TODO -> neetcode 150

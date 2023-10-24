@@ -1,3 +1,6 @@
+from collections import defaultdict
+
+
 class Solution:
     def characterReplacement(self, s, k):
         # Initialize variables to keep track of the maximum substring length and character counts.
@@ -30,10 +33,30 @@ class Solution:
 
         return max_length
 
-    # Example usage:
+    def characterReplacement2(self, s: str, k: int) -> int:
+        if not s:
+            return 0
+
+        left = right = 0
+        max_count = 0
+        max_len = 0
+        count = defaultdict(int)
+
+        while right < len(s):
+            count[s[right]] += 1
+
+            # max count is the count of the most frequent character in the current window
+            max_count = max(max_count, count[s[right]])
+            # if length of substring - max_count > k, then we need to shrink the window
+            if right - left + 1 - max_count > k:
+                count[s[left]] -= 1
+                left += 1
+            max_len = max(max_len, right - left + 1)
+            right += 1
+        return max_len
 
 
 s = "ABAB"
 k = 2
-result = Solution().characterReplacement(s, k)
-print(result)  # Output: 4
+print(Solution().characterReplacement(s, k))  # Output: 4
+print(Solution().characterReplacement(s, k))  # Output: 4
