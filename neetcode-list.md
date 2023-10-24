@@ -21,6 +21,6 @@
 
 * stack
 1. https://leetcode.com/problems/valid-parentheses/
-2. https://leetcode.com/problems/search-a-2d-matrix/
 
-TODO -> neetcode 150
+* binary search
+1. https://leetcode.com/problems/search-a-2d-matrix/
