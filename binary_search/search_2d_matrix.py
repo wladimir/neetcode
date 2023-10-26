@@ -1,35 +1,20 @@
 class Solution(object):
     def searchMatrix(self, matrix, target):
-        """
-        :type matrix: List[List[int]]
-        :type target: int
-        :rtype: bool
-        """
-        rows, cols = len(matrix), len(matrix[0])
-
-        top, bot = 0, rows - 1
-        row = -1
-
-        while top <= bot:
-            row = (top + bot) // 2
-            if matrix[row][-1] < target:
-                top = row + 1
-            elif matrix[row][0] > target:
-                bot = row - 1
-            else:
-                break
-
-        if row == -1:
+        if not matrix or not matrix[0]:
             return False
+        rows = len(matrix)
+        cols = len(matrix[0])
 
-        l, r = 0, cols - 1
-        while l <= r:
-            val = (l + r) // 2
-            if matrix[row][val] < target:
-                l = val + 1
-            elif matrix[row][val] > target:
-                r = val - 1
-            else:
+        row = 0
+        col = cols - 1
+        while row < rows and col >= 0:
+            if matrix[row][col] == target:
                 return True
-
+            elif matrix[row][col] < target:
+                row += 1
+            elif matrix[row][col] > target:
+                col -= 1
         return False
+
+
+print(Solution().searchMatrix([[1, 3, 5, 7], [10, 11, 16, 20], [23, 30, 34, 50]], 3))
