@@ -26,3 +26,10 @@
 1. https://leetcode.com/problems/search-a-2d-matrix/
 2. https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 3. https://leetcode.com/problems/search-in-rotated-sorted-array/
+
+* linked list
+1. https://leetcode.com/problems/reverse-linked-list/
+2. https://leetcode.com/problems/merge-two-sorted-lists/
+3. https://leetcode.com/problems/reorder-list/
+4. https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+5. https://leetcode.com/problems/add-two-numbers/
