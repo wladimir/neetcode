@@ -33,3 +33,8 @@
 3. https://leetcode.com/problems/reorder-list/
 4. https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 5. https://leetcode.com/problems/add-two-numbers/
+6. https://leetcode.com/problems/linked-list-cycle/
+7. https://leetcode.com/problems/merge-k-sorted-lists/
+
+* trees
+1. https://leetcode.com/problems/invert-binary-tree/
