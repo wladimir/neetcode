@@ -38,3 +38,12 @@
 
 * trees
 1. https://leetcode.com/problems/invert-binary-tree/
+2. https://leetcode.com/problems/maximum-depth-of-binary-tree/
+3. https://leetcode.com/problems/balanced-binary-tree/
+4. https://leetcode.com/problems/same-tree/
+5. https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+6. https://leetcode.com/problems/binary-tree-level-order-traversal/
+7. https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+
+* trie
+1. https://leetcode.com/problems/implement-trie-prefix-tree/
