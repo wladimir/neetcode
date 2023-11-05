@@ -47,3 +47,13 @@
 
 * trie
 1. https://leetcode.com/problems/implement-trie-prefix-tree/
+2. https://leetcode.com/problems/design-add-and-search-words-data-structure/
+
+* 2-d dynamic programming
+1. https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
+
+* intervals
+1. https://leetcode.com/problems/merge-intervals/
+
+* topological sort
+1. alien dictionary https://www.lintcode.com/problem/892/

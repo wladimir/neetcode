@@ -11,12 +11,11 @@ class Solution:
 
         for interval in intervals[1:]:
             start, end = interval
-            lastStart, lastEnd = result[-1]
+            last_start, last_end = result[-1]
 
-            if start <= lastEnd:
-                result[-1][1] = max(lastEnd, end)
+            if start <= last_end:
+                result[-1][1] = max(last_end, end)
             else:
                 result.append(interval)
 
         return result
-
