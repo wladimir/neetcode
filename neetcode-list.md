@@ -55,5 +55,5 @@
 * intervals
 1. https://leetcode.com/problems/merge-intervals/
 
-* topological sort
+* graph
 1. alien dictionary https://www.lintcode.com/problem/892/
